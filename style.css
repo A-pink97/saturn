@@ -1,5 +1,18 @@
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+.site-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
 .navbar{
   list-style: none;
+  display: flex;
 }
 .navbar-item a{
   text-decoration: none;
@@ -11,6 +24,7 @@
   color: #000;
   text-decoration: none;  
 }
+
 .btn{
   color: #fff;
   background-color:  #ff7500;
@@ -19,48 +33,54 @@
   width: 152px;
   height: 39px;
 }
+.site-header-box{
+  display: flex;
+  align-items: center;
+}
 .hero-section{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
   width: 1594px;
-  height: 621.09px;
   background-color: #252420;
 }
 .orange-line{
   width: 80px;
   height: 3px;
 }
-.sub-title{
+.hero-title{
   color: #fff;
- width: 339px;
- height: 96px;
- font-weight: bold;
- font-size: 40px;
- line-height: 48px;
- letter-spacing: 0.5px;
+  width: 339px;
+  height: 172px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
 }
 .hero-text{
   width: 387px;
   height: 96px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  color: #fff;
+   color: #fff;
 }
 .big-title{
   width: 435px;
   height: 172px;
-  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 72px;
   line-height: 86px;
-  letter-spacing: 0.5px;
   color: #000;
 }
-
+.feature-list{
+  display: flex;
+  justify-content: space-between;
+}
 .features-item{
    list-style: none;
 }
 .feature-title{
   font-weight: bold;
   font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: 29px;
   letter-spacing: 0.5px;
   color: #000;
@@ -68,9 +88,6 @@
 .feature-info{
   width: 314px;
   height: 72px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
   color: #000;
 }
 .feature-icon-wrapper{
@@ -79,23 +96,22 @@
   background-color:  rgba(255, 117, 0, 0.2);
 }
 .sale{
-  width: 1100px;
- 
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
 }
 .sale-title{
   width: 373px;
   font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: 120%;
   letter-spacing: 0.5px;
   color: #fff;
 }
 .sale-text{
   width: 440px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  color: #fff;
+    color: #fff;
 }
 .letter-highlitte{
   color: #ff7500;
@@ -105,29 +121,36 @@
   height: 440px;
 }
 .site-footer{
+  
   width: 1440px;
   height: 507px;
   background-color: #F8F8F8;
 }
 .site-footer-top{
-  width: 1100px;
+   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .social-list{
   list-style: none;
+  display: flex;
+  align-items: center;
+}
+.footer-rectangle{
+  width: 1100px;
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-bottom{
-  width: 1100px;
+  display: flex;
 }
 .site-footer-list{
   width: 225px;
+  line-height: 19px;
   list-style: none;
 
 }
 .site-footer-links a{
-  font-size: 16px;
-  line-height: 19px;
   color: #252420;
   text-decoration: none;
 }
