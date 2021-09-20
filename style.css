@@ -19,6 +19,9 @@ body{
 }
 .site-header{
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 3px solid #ff7500;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
@@ -26,6 +29,7 @@ body{
 .navbar{
   list-style: none;
   display: flex;
+  padding: 0;
 }
 .navbar-item a{
   text-decoration: none;
@@ -46,12 +50,15 @@ body{
 }
 
 .btn{
+  display: inline-block;
   color: #fff;
+  border-radius: 4px;
   background-color:  #ff7500;
+  padding:12px 24px;
   text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none;
-  width: 152px;
-  height: 39px;
+  font-size: 13px;
   transition: opacity 0.4s ease;
 }
 .btn:hover{
@@ -66,6 +73,8 @@ body{
 }
 .hero-section{
   display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
   align-items: center;
   justify-content:space-between;
   width: 1594px;
@@ -74,6 +83,7 @@ body{
 .orange-line{
   width: 80px;
   height: 3px;
+  border: none;
 }
 .hero-title{
   color: #fff;
@@ -97,8 +107,16 @@ body{
   line-height: 86px;
   color: #000;
 }
+.hero-img{
+  border-radius: 8px;
+}
+.feature-section{
+ padding-top: 210px;
+ padding-bottom: 210px;
+}
 .feature-list{
   display: flex;
+  padding: 0;
   justify-content: space-between;
 }
 .features-item{
@@ -120,10 +138,17 @@ body{
 .feature-icon-wrapper{
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color:  rgba(255, 117, 0, 0.2);
 }
 .sale{
-   display: flex;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  border-radius: 12px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
@@ -146,11 +171,14 @@ body{
 .sale-img{
   width: 440px;
   height: 440px;
+  border-radius: 12px;
 }
 .site-footer{
   
   width: 1440px;
   height: 507px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #F8F8F8;
 }
 .site-footer-top{
@@ -161,6 +189,7 @@ body{
 .social-list{
   list-style: none;
   display: flex;
+  padding: 0;
   align-items: center;
 }
 .social-list a{
@@ -175,6 +204,7 @@ body{
 .footer-rectangle{
   width: 1100px;
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-bottom{
@@ -182,6 +212,7 @@ body{
 }
 .site-footer-list{
   width: 225px;
+  padding: 0;
   line-height: 19px;
   list-style: none;
 
