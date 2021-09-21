@@ -17,6 +17,9 @@ body{
 .logo-link:active{
   opacity: 0.6;
 }
+.logo-link img{
+  display: block;
+}
 .site-header{
   display: flex;
   padding-top: 16px;
